@@ -1,0 +1,176 @@
+tbody::-webkit-scrollbar {
+    display: none;
+}
+
+tbody {
+    display: block;
+    max-height: 15rem;
+    overflow-y: auto;
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+thead tr th {
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.PosTask{
+    text-align: center;
+    margin: 10px;
+}
+
+.inputPos{
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+
+.AddbuttonStyle{
+    margin-top: 40px;
+    background-color: white;
+    border: none;
+    color: rgb(255, 111, 0) ;    
+}
+
+.AddbuttonStyle:hover{
+    background-color: rgb(255, 111, 0) ; 
+    color: white;  
+    border-radius: 8px;
+}
+
+.titlePos{
+    max-width: 12%;
+    min-width: 130px;
+    top: -30px;
+    right: 70%;
+    position: absolute;
+    background-color: white;
+    border: none;
+    color: rgb(255, 111, 0) ;    
+}
+
+.Add2buttonStyle{
+    width: 20%;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.Add2buttonStyle:hover {
+    background-color: rgb(255, 111, 0);
+    color: white;
+}
+
+.inputPos,
+.TextAreaStyle {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#newTaskFormContainer{
+    display: none;
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px solid rgb(255, 111, 0);
+    border-radius: 8px;
+    justify-content: center;
+    position: relative;
+}
+
+.btnClose{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btnClose:hover{
+    color: #888;
+    cursor: pointer;
+}
+
+h1{
+    color:rgb(0, 0, 0);
+}
+
+.tablePos{
+    margin: 40px auto;
+    position: relative;
+}
+
+.tableR{
+    margin: 0 auto;
+    width: 70%;
+    border: 2px solid rgb(255, 111, 0);
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px;   
+     
+}
+
+#main-container {
+    overflow: hidden;
+}
+
+.task-table {
+    height: 100% !important;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 60px auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.fa-edit {
+    color: #aaa;
+}
+
+.fa-edit:hover,
+.fa-edit:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
