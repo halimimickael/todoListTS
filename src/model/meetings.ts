@@ -9,7 +9,7 @@ class Meetings extends Note implements Meetings {
     constructor(id: number, title: string, location: string, text: string,
         dateOfMeeting: Date, hourOfMeeting: string, image?: string) {
         super(id, title, location, text, image);
-        this._dateOfMeeting = dateOfMeeting; // Assigner la date fournie au lieu de Date()
+        this._dateOfMeeting = dateOfMeeting;
         this._hourOfMeeting = hourOfMeeting;
     }
 
